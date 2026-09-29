@@ -10,6 +10,10 @@ if (!record) {
     <h2>${record.name} · ${record.diagnosis}</h2>
     <div class="detail-grid">
       <div class="detail-item">
+        <span class="label">就诊编号</span>
+        <span class="value">No.${record.id}</span>
+      </div>
+      <div class="detail-item">
         <span class="label">患者姓名</span>
         <span class="value">${record.name}</span>
       </div>
